@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<webConfig>
+    <web>
+        <bind>127.0.0.1:8090</bind>
+    </web>
+    <webservice>
+        <cron>0 * * * * ? *</cron>
+        <url>http://192.168.1.214:9001/AFIS/SJZWZDSB?wsdl</url>
+        <target_namespace>http://www.msp.gov.cn/szxc</target_namespace>
+        <user>370000350000</user>
+        <password>123456</password>
+    </webservice>
+</webConfig>

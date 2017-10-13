@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<webConfig>
+    <web>
+        <bind>127.0.0.1:8090</bind>
+    </web>
+    <webservice>
+        <cron>0/1 * * * * ? *</cron>
+        <url>http://localhost:8080/Asss/services/HandprintServiceHttpSoap12Endpoint?wsdl</url>
+        <target_namespace>http://service</target_namespace>
+        <username>123</username>
+        <password>123</password>
+    </webservice>
+</webConfig>

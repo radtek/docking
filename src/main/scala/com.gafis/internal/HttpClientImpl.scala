@@ -1,7 +1,6 @@
 package com.gafis.internal
 
 import com.gafis.services.HandprintService
-import com.gafis.socket.Gafis6NetRequest
 import com.gafis.utils.{Constant, Loggers}
 import org.apache.tapestry5.ioc.annotations.PostInjection
 import org.apache.tapestry5.ioc.services.cron.{CronSchedule, PeriodicExecutor}
